@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.kaibee.RoverTest" time="0.067" tests="31" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mehdiajala/IdeaProjects/mars-rover-kata/target/test-classes:/Users/mehdiajala/IdeaProjects/mars-rover-kata/target/classes:/Users/mehdiajala/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/Users/mehdiajala/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/mehdiajala/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/Users/mehdiajala/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/mehdiajala/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mehdiajala/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/mehdiajala/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/Users/mehdiajala/Library/Java/JavaVirtualMachines/openjdk-18/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mehdiajala/IdeaProjects/mars-rover-kata/target/surefire/surefirebooter-20221207105421794_3.jar /Users/mehdiajala/IdeaProjects/mars-rover-kata/target/surefire 2022-12-07T10-54-21_642-jvmRun1 surefire-20221207105421794_1tmp surefire_0-20221207105421794_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mehdiajala/IdeaProjects/mars-rover-kata/target/test-classes:/Users/mehdiajala/IdeaProjects/mars-rover-kata/target/classes:/Users/mehdiajala/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/Users/mehdiajala/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/mehdiajala/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/Users/mehdiajala/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/mehdiajala/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mehdiajala/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/mehdiajala/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mehdiajala"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="/Users/mehdiajala/Library/Java/JavaVirtualMachines/openjdk-18/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mehdiajala/IdeaProjects/mars-rover-kata"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mehdiajala/IdeaProjects/mars-rover-kata/target/surefire/surefirebooter-20221207105421794_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18+36-2087"/>
+    <property name="user.name" value="mehdiajala"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mehdiajala/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/79/7dgh957s5psfyfm9yrz9c3jm0000gn/T/"/>
+    <property name="idea.version" value="2022.2.3"/>
+    <property name="java.version" value="18"/>
+    <property name="user.dir" value="/Users/mehdiajala/IdeaProjects/mars-rover-kata"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mehdiajala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18+36-2087"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Should_Abort_Instructions_When_Move_Forward_To_Position_With_Rover" classname="fr.kaibee.RoverTest" time="0.039"/>
+  <testcase name="Should_Move_Y_4_When_Y_3_Previous_Direction_North_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_Turn_Rover_North_When_Previous_Direction_East_And_Instruction_Is_Left" classname="fr.kaibee.RoverTest" time="0.002"/>
+  <testcase name="Should_Move_X_2_When_X_3_Previous_Direction_East_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Turn_Rover_East_When_Previous_Direction_North_And_Instruction_Is_Right" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_X_Has_1_When_X_Is_MaxX_And_Direction_EAST_And_Instruction_Forward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_X_2_When_X_3_Previous_Direction_West_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_Move_Y_2_When_Y_1_Previous_Direction_South_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_Y_3_When_Y_2_Previous_Direction_South_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_X_3_When_X_2_Previous_Direction_East_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_Turn_Rover_West_When_Previous_Direction_South_And_Instruction_Is_Right" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_X_1_When_X_2_Previous_Direction_West_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_Move_X_2_When_X_1_Previous_Direction_East_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Turn_Rover_North_When_Previous_Direction_West_And_Instruction_Is_Right" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_Y_1_When_Y_2_Previous_Direction_South_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_Y_Has_1_When_Y_Is_MaxY_And_Direction_North_And_Instruction_Forward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_X_Has_1_When_X_Is_MaxX_And_Direction_WEST_And_Instruction_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Turn_Rover_South_When_Previous_Direction_East_And_Instruction_Is_Right" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_Y_Has_MaxY_When_Y_Is_1_And_Direction_South_And_Instruction_Forward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_Y_2_When_Y_3_Previous_Direction_South_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Turn_Rover_South_When_Previous_Direction_West_And_Instruction_Is_Left" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_Y_1_When_Y_2_Previous_Direction_North_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Turn_Rover_East_When_Previous_Direction_South_And_Instruction_Is_Left" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Turn_Rover_West_When_Previous_Direction_North_And_Instruction_Is_Left" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_Move_Y_2_When_Y_3_Previous_Direction_North_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_X_2_When_X_1_Previous_Direction_West_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0.001"/>
+  <testcase name="Should_X_Has_MaxX_When_X_Is_1_And_Direction_WEST_And_Instruction_Forward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_Y_3_When_Y_2_Previous_Direction_North_And_Instruction_Is_Forward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_X_1_When_X_2_Previous_Direction_East_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Abort_Instructions_When_Move_Backward_To_Position_With_Rover" classname="fr.kaibee.RoverTest" time="0"/>
+  <testcase name="Should_Move_X_3_When_X_2_Previous_Direction_West_And_Instruction_Is_Backward" classname="fr.kaibee.RoverTest" time="0"/>
+</testsuite>
